@@ -1,6 +1,7 @@
 import logging
 import torch
 import torch.nn as nn
+import torchvision.transforms as T
 from timm.models import create_model
 
 _logger = logging.getLogger(__name__)
